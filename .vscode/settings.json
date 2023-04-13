@@ -1,0 +1,4 @@
+{
+    "scss.lint.unknownAtRules": "ignore"
+    //EVITA QUE O @import-normalize DÊ ERRO
+}
