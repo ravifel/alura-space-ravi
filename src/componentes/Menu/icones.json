@@ -1,0 +1,37 @@
+[
+    {
+        "titulo": "Home Ativo",
+        "nome": "Início",
+        "creditos": "Alura Space",
+        "imagem": "/assets/icones/home-ativo.png",
+        "id": "1"
+    },
+    {
+        "titulo": "Mais Curtidas Inativo",
+        "nome": "Mais curtidas",
+        "creditos": "Alura Space",
+        "imagem": "/assets/icones/mais-curtidas-inativo.png",
+        "id": "2"
+    },
+    {
+        "titulo": "Mais Visitas Inativo",
+        "nome": "Mais vistas",
+        "creditos": "Alura Space",
+        "imagem": "/assets/icones/mais-vistas-inativo.png",
+        "id": "3"
+    },
+    {
+        "titulo": "Novas Inativo",
+        "nome": "Novas",
+        "creditos": "Alura Space",
+        "imagem": "/assets/icones/novas-inativo.png",
+        "id": "4"
+    },
+    {
+        "titulo": "Surpreenda-me Inativo",
+        "nome": "Surpreenda-me",
+        "creditos": "Alura Space",
+        "imagem": "/assets/icones/surpreenda-me-inativo.png",
+        "id": "5"
+    }
+]
