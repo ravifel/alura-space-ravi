@@ -31,7 +31,7 @@ export default function Rodape() {
                     <img src={instagram} alt="ícone do instagram" />
                 </a>
             </div>
-            <p>Desenvolvido por Ravi Silva - no curso de React Alura</p>
+            <p>Aluno Ravi Silva</p>
         </footer>
     )
 }

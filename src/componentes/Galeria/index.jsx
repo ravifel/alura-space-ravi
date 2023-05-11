@@ -6,10 +6,10 @@ import Cards from './Cards'
 
 export default function Galeria() {
     return (
-        <section className={styles.galeria}>
+        <section className={styles.galeria} >
             <h2>Navegue pela galeria</h2>
             <Tags />
             <Cards itens={fotos} styles={styles} />
-        </section>
+        </section >
     )
 }

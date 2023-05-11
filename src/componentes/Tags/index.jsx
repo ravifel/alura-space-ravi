@@ -5,11 +5,14 @@ import tags from "./tags.json"
 export default function Tags() {
     return (
         <div className={styles.tags}>
-            <p className={styles.tags}>Filtre por tags:</p>
-            <ul >
+            <p>Filtre por tags:</p>
+            <ul className={styles.tags__lista}>
                 {tags.map((tag) => {
-                    return <li>{tag.titulo}</li>
+                    return (
+                        <li key={tag.id}>{tag.titulo}</li>
+                    );
                 })}
+                <li>Todas</li>
             </ul>
         </div>
     )
