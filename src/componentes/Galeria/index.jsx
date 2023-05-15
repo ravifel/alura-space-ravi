@@ -33,7 +33,7 @@ export default function Galeria() {
             <h2>Navegue pela galeria</h2>
 
             {/* As "Tags" vão ser passadas para o componente como uma Props */}
-            <Tags tags={tags} filtrarFotos={filtrarFotos} />
+            <Tags tags={tags} filtrarFotos={filtrarFotos} setItens={setItens} />
 
             <Cards itens={itens} styles={styles} />
 

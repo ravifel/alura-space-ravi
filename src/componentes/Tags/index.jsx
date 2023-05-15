@@ -1,10 +1,11 @@
 import React from 'react'
 import styles from './Tags.module.scss'
-import tags from "./tags.json"
+import fotos from "../Galeria/fotos.json"
 
 export default function Tags({
     tags,
-    filtrarFotos
+    filtrarFotos,
+    setItens
 }) {
     return (
         <div className={styles.tags}>
@@ -15,6 +16,7 @@ export default function Tags({
                         return <li key={tag} onClick={() => filtrarFotos(tag)}>{tag}</li>
                     }
                 )}
+                <li onClick={() => setItens(fotos)}>Todas</li>
             </ul>
         </div>
     )
