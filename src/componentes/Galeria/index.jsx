@@ -17,13 +17,23 @@ export default function Galeria() {
     //Cada posição do Array vai ser preenchida por uma "Tag", que é única.
 
 
+    //FUNÇÃO - FILTRAR FOTOS
+    const filtrarFotos = (tag) => {
+        const novasFotos = fotos.filter((foto) => {
+            return foto.tag === tag;
+        })
+
+        setItens(novasFotos);
+    }
+
+
     return (
         <section className={styles.galeria} >
 
             <h2>Navegue pela galeria</h2>
 
             {/* As "Tags" vão ser passadas para o componente como uma Props */}
-            <Tags tags={tags} />
+            <Tags tags={tags} filtrarFotos={filtrarFotos} />
 
             <Cards itens={itens} styles={styles} />
 

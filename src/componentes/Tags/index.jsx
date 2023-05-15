@@ -3,7 +3,8 @@ import styles from './Tags.module.scss'
 import tags from "./tags.json"
 
 export default function Tags({
-    tags
+    tags,
+    filtrarFotos
 }) {
     return (
         <div className={styles.tags}>
@@ -11,9 +12,7 @@ export default function Tags({
             <ul className={styles.tags__lista}>
                 {tags.map(
                     (tag) => {
-                        return (
-                            <li key={tag}>{tag}</li>
-                        )
+                        return <li key={tag} onClick={() => filtrarFotos(tag)}>{tag}</li>
                     }
                 )}
             </ul>
